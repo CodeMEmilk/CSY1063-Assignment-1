@@ -44,8 +44,9 @@ main{
     margin-right: 5%;
     margin-left: 5%;
 
-    /* display: grid;
-    grid-row: auto; */
+    display: grid;
+    grid-row: auto;
+    row-gap: 20px;
 
     padding-top: 50px;
     border: 1px solid black;
@@ -66,14 +67,8 @@ footer{
     height: 200px;
 
     display:flex;
-    flex-direction: row;
+    align-items:center;
     border: 2px solid black;
-}
-
-.placeholder-details{
-    margin:1px;
-    padding: 10px;
-    text-align: center;
 }
 
 .placeholder-img{
@@ -81,8 +76,18 @@ footer{
     width:200px;
     border: 1px solid black;
 
+    flex-shrink: 0;
     text-align:center;
 }
+
+.placeholder-details{
+    flex:1;
+    margin:1px;
+    padding: 10px;
+    text-align: center;
+}
+
+
 
 
 /* div{
