@@ -34,13 +34,21 @@ nav{
 }
 
 body{
-    display: flex;
+    display: flex;                  
     flex-direction: column;
     min-height: 100vh;
 }
 
 main{
     flex:1;
+    margin-right: 5%;
+    margin-left: 5%;
+
+    /* display: grid;
+    grid-row: auto; */
+
+    padding-top: 50px;
+    border: 1px solid black;
 }
 
 footer{
@@ -50,3 +58,34 @@ footer{
 
     text-align:center;
 }
+
+.placeholder{
+    margin-right: 5%;
+    margin-left: 5%;
+    width: 90%;
+    height: 200px;
+
+    display:flex;
+    flex-direction: row;
+    border: 2px solid black;
+}
+
+.placeholder-details{
+    margin:1px;
+    padding: 10px;
+    text-align: center;
+}
+
+.placeholder-img{
+    margin:2px;
+    width:200px;
+    border: 1px solid black;
+
+    text-align:center;
+}
+
+
+/* div{
+    margin: 2px;
+    border:2px solid black;
+} */
